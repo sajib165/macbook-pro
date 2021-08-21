@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Mackbook Pro</title>
+</head>
+
+<body>
+    <main>
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <!-- mackbook -->
+                    <div class="col-md-6"></div>
+                    <img src="images/mac.png" class="img-fluid" alt="Mac">
+
+                </div>
+                <!-- information -->
+                <div class="col-md-6">
+                    <h2>Customize Your blue 24-inch imac with apple m1 chip.</h2>
+                    <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                        16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
+                        Mouse Magic Keyboard - US english</p>
+                    <div class="memory my-5"></div>
+                    <h4>Memory</h4>
+                    <button id="memoryBtnOne" class="btn btn-outline-dark">8GB unified Memory</button>
+                    <button id="memoryBtnTwo" class="btn btn-outline-dark">16GB unified Memory</button>
+
+
+                </div>
+                <!-- storage part -->
+                <div class="storage my-5">
+                    <h4>storage</h4>
+                    <button id="storageBtnOne" class="btn btn-outline-dark">256GB SSD storage</button>
+                    <button id="storageBtnTwo" class="btn btn-outline-dark">256GB SSD storage</button>
+                    <button id="storageBtnThree" class="btn btn-outline-dark">256GB SSD storage</button>
+
+                </div>
+                <!-- Delivery part -->
+                <div class="delivery my-5">
+                    <h4>Choose Your delivery Option</h4>
+                    <button id="deliveryBtnOne" class="btn btn-outline-dark">Friday, Aug 25 Free Prime delivery</button>
+                    <button id="deliveryBtnTwo" class="btn btn-outline-dark">Friday, Aug 25 Free Prime delivery</button>
+                </div>
+                <!-- pricing Table -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th scope="col">Best Price</th>
+                                    <th scope="col"> "$"
+                                        <span id="bestPrice">1299</span>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Extra memory cost</th>
+                                    <td>"$"
+                                        <span id="extraMemory">0</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Extra memory cost</th>
+                                    <td>"$"
+                                        <span id="extraStorage">0</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Delivery Charge</th>
+                                    <td colspan="2">"$"
+                                        <span id="deliveryCharge">0</span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row">Total Price</th>
+                                    <td colspan="2">
+                                        "$" <span id="totalPrice">1299</span>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <h5 class="mt-4">Add Promo Code</h5>
+                        <div class="input-group">
+                            <input id="discountInput" class="form-control" type="text">
+                            <button id="diacountAmout" class="btn btn-danger">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- total amound -->
+            <h1 class="text-center">
+                total: $ <span id="finalAmount">1299</span>
+            </h1>
+        </section>
+    </main>
+    <!-- custom javascript -->
+    <script src="index.js"></script>
+    <!-- bootstrap bundle  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
